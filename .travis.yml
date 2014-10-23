@@ -1,0 +1,9 @@
+language: ruby
+cache: bundler
+before_script:
+  - gem install scss-lint
+rvm:
+  - 2.0.0
+
+script:
+  - scss-lint --config=.scss-lint.yml app/assets/stylesheets/**/*.css.scss
