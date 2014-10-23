@@ -1,4 +1,4 @@
-travisci_scss
+Travis CI SCSS Lint Integration
 =============
 With the integration of Travis CI for deploying apps one thing I noticed was missing.  The lack of Front End tasks in deployments.  
 
